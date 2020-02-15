@@ -17,18 +17,23 @@ struct mood_Row: View {
         
         VStack {
             
-            Text(self.categoryName)
-                .font(.title)
-                .fontWeight(.medium)
-                .multilineTextAlignment(.leading)
-                .padding(.top)
+            HStack {
+                Text(self.categoryName)
+                    .font(.title)
+                    .fontWeight(.medium)
+                    .multilineTextAlignment(.leading)
+                    .padding(.top)
+                Spacer().padding(.leading)
+                
+            }
             ScrollView(){
             // create a for each to get all objects
                 HStack(alignment: .top) {
                     ForEach (moods, id: \.name) {mood in
                         Mood_Items(mood: mood)
-                               .frame(width: 320)
+                            .frame(width: 300, height: 250)
                             .padding(.trailing, 20.0)
+                            .padding(.top)
                     }
                 }
             }

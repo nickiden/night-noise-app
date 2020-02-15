@@ -17,7 +17,7 @@ struct Mood_Items: View {
                 .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 300.0,height:170)
+                .frame(width: 300.0,height:190)
                 .cornerRadius(10)
                 .shadow(radius: 10)
             
@@ -28,7 +28,7 @@ struct Mood_Items: View {
                 .fontWeight(.regular)
                 .foregroundColor(Color.black)
                 .multilineTextAlignment(.leading)
-                .lineLimit(3)
+                .lineLimit(2)
                 
             
             Text(mood.description)

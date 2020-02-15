@@ -15,6 +15,7 @@
 		EE2DB5FA23F6F0F0000FFF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2DB5F823F6F0F0000FFF2A /* LaunchScreen.storyboard */; };
 		EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60423F6FC50000FFF2A /* Data.swift */; };
 		EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60E23F70669000FFF2A /* Mood.swift */; };
+		EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */; };
 		EE8CC84523F7204B00D3D55E /* moods.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8CC84423F7204B00D3D55E /* moods.json */; };
 		EEFBE07F23F70A700086DF65 /* Mood_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE07E23F70A700086DF65 /* Mood_Items.swift */; };
 		EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08023F70DDE0086DF65 /* Constaints.swift */; };
@@ -32,6 +33,7 @@
 		EE2DB5FB23F6F0F0000FFF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2DB60423F6FC50000FFF2A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EE2DB60E23F70669000FFF2A /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Detail.swift; sourceTree = "<group>"; };
 		EE8CC84423F7204B00D3D55E /* moods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = moods.json; path = "../../../../Desktop/Swift App Development Ideas/nitenite/moods.json"; sourceTree = "<group>"; };
 		EEFBE07E23F70A700086DF65 /* Mood_Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Items.swift; sourceTree = "<group>"; };
 		EEFBE08023F70DDE0086DF65 /* Constaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constaints.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				EE2DB5EC23F6F0EF000FFF2A /* NiteNite */,
+				EE8CC84623F720D400D3D55E /* Helpers */,
 				EE2DB5EB23F6F0EF000FFF2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,10 +95,10 @@
 		EE2DB60B23F7047A000FFF2A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EE8CC84623F720D400D3D55E /* Helpers */,
 				EE2DB5F123F6F0EF000FFF2A /* ContentView.swift */,
 				EEFBE07E23F70A700086DF65 /* Mood_Items.swift */,
 				EEFBE08223F7138D0086DF65 /* mood_Row.swift */,
+				EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				EE2DB5EE23F6F0EF000FFF2A /* AppDelegate.swift in Sources */,
 				EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */,
+				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* ContentView.swift in Sources */,
 				EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */,
 				EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */,

@@ -2,33 +2,55 @@
 //  ContentView.swift
 //  NiteNite
 //
-//  Created by Nick Iden on 2020-02-14.
+//  Created by Nick Iden on 2020-02-16.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    
-    var categories:[String:[Mood]] {
-    .init(
-        grouping: moodData,
-        by: {$0.category.rawValue}
-    )
-}
-    
-    
     var body: some View {
-        NavigationView {
-            List (categories.keys.sorted(),id: \String.self) {key in mood_Row(categoryName: "\(key)".uppercased(), moods: self.categories[key]!)
-                .frame(height: 320)
-                .padding(.top)
+       
+        TabView{
+            
+            // home view
+            Home_View()
+            .tabItem {
                 
-            }.navigationBarTitle(Text("Nite Night")) 
+                VStack {
+                    Image(systemName: "Home")
+                    Text("Home")
+                        
+                    }
+            }.tag(0)
+            
+            // About
+            AboutView()
+                .tabItem() {
+                    VStack{
+                        Image(systemName: "Person")
+                         
+                        Text("About")
+                    }
+            }
+            
+              // Settings
+            Settings()
+                .tabItem() {
+                    VStack{
+                        Image(systemName: "Gear")
+                        Text("Settings")
+                            .padding()
+                    }
+            }
+            
+            
+            
         }
+        
+        
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

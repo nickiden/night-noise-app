@@ -48,14 +48,9 @@ struct Mood_Detail: View {
                 // struct for button
                 HStack {
                     Spacer()
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                        Text("Play Sound")
                     
-                    }  .frame(width: 200, height: 50)
-                        .foregroundColor(.white)
-                        .font(.headline)
-                        .background(Color.blue)
-                        .cornerRadius(10)
+                    // call button view
+                    Mood_Button()
                     Spacer()
                 }.padding(.top,50)
 

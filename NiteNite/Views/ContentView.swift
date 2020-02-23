@@ -24,22 +24,13 @@ struct ContentView: View {
                     }
             }.tag(0)
             
-            // About
-            AboutView()
-                .tabItem() {
-                    VStack{
-                        Image(systemName: "Person")
-                         
-                        Text("About")
-                    }
-            }
-            
+           
               // Settings
             Settings()
                 .tabItem() {
                     VStack{
-                        Image(systemName: "Gear")
-                        Text("Settings")
+                        Image(systemName: "Person")
+                        Text("About")
                             .padding()
                     }
             }

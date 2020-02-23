@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */; };
 		EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5123FA48F9004F33F5 /* ContentView.swift */; };
-		EE07EB5423FA4CB9004F33F5 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5323FA4CB9004F33F5 /* AboutView.swift */; };
 		EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5523FA4CF5004F33F5 /* Settings.swift */; };
 		EE2DB5EE23F6F0EF000FFF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */; };
 		EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Button.swift; sourceTree = "<group>"; };
 		EE07EB5123FA48F9004F33F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EE07EB5323FA4CB9004F33F5 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		EE07EB5523FA4CF5004F33F5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		EE2DB5EA23F6F0EF000FFF2A /* NiteNite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiteNite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */,
 				EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */,
 				EE07EB5123FA48F9004F33F5 /* ContentView.swift */,
-				EE07EB5323FA4CB9004F33F5 /* AboutView.swift */,
 				EE07EB5523FA4CF5004F33F5 /* Settings.swift */,
 			);
 			path = Views;
@@ -223,7 +220,6 @@
 				EE2DB5EE23F6F0EF000FFF2A /* AppDelegate.swift in Sources */,
 				EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */,
 				EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */,
-				EE07EB5423FA4CB9004F33F5 /* AboutView.swift in Sources */,
 				EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */,
 				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */,
@@ -370,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
+				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NiteNite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,6 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
+				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NiteNite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

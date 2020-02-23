@@ -19,12 +19,18 @@ struct Home_View: View {
     
     
     var body: some View {
+        
         NavigationView {
-            List (categories.keys.sorted(),id: \String.self) {key in mood_Row(categoryName: "\(key)".uppercased(), moods: self.categories[key]!)
-                .frame(height: 320)
+            
+            List (categories.keys.sorted(),id: \String.self ) {key in
+                mood_Row(categoryName: "\(key)".uppercased(), moods: self.categories[key]!)
+                    .frame(height: 320)
                 .padding(.top)
                 
-            }.navigationBarTitle(Text("Nite Night")) 
+                
+
+                
+                }.navigationBarTitle(Text("Nite Nite"))
         }
     }
 }

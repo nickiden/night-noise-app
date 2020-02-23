@@ -26,22 +26,22 @@ struct mood_Row: View {
                    
                     Spacer()
                 
-                
             }
             ScrollView(.horizontal, showsIndicators: false) {
             // create a for each to get all objects
                 HStack(alignment: .top) {
-                    ForEach (moods, id: \.name) {mood in
+                    ForEach (self.moods, id: \.name) {mood in
                         
                         // create nav button
                         NavigationLink(destination: Mood_Detail(mood: mood))
                         {
-                        
+
                             Mood_Items(mood: mood)
                                 .frame(width: 300, height: 270)
                                 .padding(.trailing, 20)
                                 .padding(.bottom)
                         }.buttonStyle(PlainButtonStyle())
+                        
                           
                     }
                 }

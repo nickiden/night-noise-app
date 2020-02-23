@@ -18,6 +18,7 @@ struct Mood_Detail: View {
             ZStack (alignment: .bottom){
                 Image(mood.imageName)
                     .resizable()
+                    .renderingMode(.original)
                     .aspectRatio(contentMode: .fit)
                 // rectangle for darkening bottom
                 Rectangle()

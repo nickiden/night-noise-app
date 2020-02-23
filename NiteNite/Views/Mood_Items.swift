@@ -47,7 +47,7 @@ struct Mood_Items: View {
 
 struct Mood_Items_Previews: PreviewProvider {
     static var previews: some View {
-        Mood_Items(mood: moodData[0] ) // call first instance
+        Mood_Items(mood: moodData[3] ) // call first instance
         
     }
 }

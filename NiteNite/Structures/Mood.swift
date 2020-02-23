@@ -24,8 +24,9 @@ struct Mood: Hashable,Codable,Identifiable {
         case Fire = "Fire"
         case Rain = "Rain"
         case Snow = "Snow"
-        case Noise = "White Noise"
-        case City = "Chill City"
+        case Noise = "Noise"
+        case City = "City"
         case Forest = "Forest"
+        case Waterfall = "Waterfall"
     }
 }

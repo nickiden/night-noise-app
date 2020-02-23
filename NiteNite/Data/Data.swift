@@ -8,7 +8,7 @@
 
 import Foundation
 
-// create list of drinks
+// create list of moods
 let moodData:[Mood] = load(filename: "moods.json")
 
 // FUNCTION :   load

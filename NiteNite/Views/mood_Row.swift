@@ -18,6 +18,8 @@ struct mood_Row: View {
     
     var body: some View {
         
+        
+        
         VStack {
             
             HStack {
@@ -33,7 +35,7 @@ struct mood_Row: View {
             ScrollView(.horizontal, showsIndicators: false) {
             // create a for each to get all objects
                 HStack(alignment: .top) {
-                    ForEach (self.moods, id: \.name) {mood in
+                    ForEach (self.moods) {mood in
                         
                         // create nav button
                         NavigationLink(destination: Mood_Detail(mood: mood))
@@ -58,6 +60,6 @@ struct mood_Row: View {
 
 struct mood_Row_Previews: PreviewProvider {
     static var previews: some View {
-        mood_Row(categoryName: "Ocean", moods: moodData)
+        mood_Row(categoryName: moodData[0].category.rawValue, moods: moodData)
     }
 }

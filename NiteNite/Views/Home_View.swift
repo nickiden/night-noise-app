@@ -11,7 +11,7 @@ import SwiftUI
 struct Home_View: View {
     
     var categories:[String:[Mood]] {
-    .init(
+    Dictionary(
         grouping: moodData,
         by: {$0.category.rawValue}
     )
@@ -22,13 +22,21 @@ struct Home_View: View {
         
         NavigationView {
             
-            List (categories.keys.sorted(),id: \String.self ) {key in
-                mood_Row(categoryName: "\(key)".uppercased(), moods: self.categories[key]!)
+            List {
+            
+                ForEach(categories.keys.sorted(), id: \.self ) {key in
+                mood_Row(categoryName: key, moods: self.categories[key]!)
+                    .scaledToFill()
                     .frame(height: 320)
-                    .padding(.top)
+                    .padding()
+                    
+                    .id(UUID().uuidString)
                
-                }.navigationBarTitle(Text("Nite Nite"))
-            .id(UUID())
+                }
+                
+                .navigationBarTitle(Text("Nite Nite"))
+                
+        }
         }
     }
 }

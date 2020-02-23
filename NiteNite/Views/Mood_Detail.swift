@@ -20,10 +20,11 @@ struct Mood_Detail: View {
                     .resizable()
                     .renderingMode(.original)
                     .aspectRatio(contentMode: .fit)
+                    
                 // rectangle for darkening bottom
                 Rectangle()
                     .frame(height: 80)
-                    .opacity(0.45)
+                    .opacity(0.2)
                 .blur(radius: 10)
                 
                 // create section for title
@@ -43,7 +44,7 @@ struct Mood_Detail: View {
                 Text(mood.description)
                     .font(.body)
                     .foregroundColor(Color.black)
-                .lineLimit(nil)
+                    .lineLimit(nil)
                     .lineSpacing(12)
                 
                 // struct for button
@@ -73,6 +74,6 @@ struct Mood_Detail: View {
 
 struct Mood_Detail_Previews: PreviewProvider {
     static var previews: some View {
-        Mood_Detail(mood: moodData[0])
+        Mood_Detail(mood: moodData[2])
     }
 }

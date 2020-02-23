@@ -13,6 +13,9 @@ struct mood_Row: View {
     var categoryName:String
     var moods:[Mood]
     
+    
+    
+    
     var body: some View {
         
         VStack {

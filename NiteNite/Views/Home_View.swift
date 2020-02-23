@@ -25,12 +25,10 @@ struct Home_View: View {
             List (categories.keys.sorted(),id: \String.self ) {key in
                 mood_Row(categoryName: "\(key)".uppercased(), moods: self.categories[key]!)
                     .frame(height: 320)
-                .padding(.top)
-                
-                
-
-                
+                    .padding(.top)
+               
                 }.navigationBarTitle(Text("Nite Nite"))
+            .id(UUID())
         }
     }
 }

@@ -16,23 +16,22 @@ struct ContentView: View {
             // home view
             Home_View()
             .tabItem {
-                
-                VStack {
-                    Image(systemName: "Home")
-                    Text("Home")
+            
+                Image(systemName: "house")
+                Text("Home")
                         
-                    }
+                    
             }.tag(0)
             
            
               // Settings
             Settings()
-                .tabItem() {
-                    VStack{
-                        Image(systemName: "Person")
-                        Text("About")
-                            .padding()
-                    }
+            .tabItem() {
+                   
+                Image(systemName: "person")
+                Text("About")
+                //.padding()
+                    
             }
             
             

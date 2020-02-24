@@ -33,7 +33,7 @@ struct Home_View: View {
                
                 }
                 
-                .navigationBarTitle(Text("Nite Nite"))
+                .navigationBarTitle(Text("NiteNite"))
                 
         }
     }

@@ -50,7 +50,7 @@ struct mood_Row: View {
                           
                     }
                 }
-            }
+            }.id(UUID().uuidString)
         }
         
         

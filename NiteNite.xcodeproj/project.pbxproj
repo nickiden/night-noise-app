@@ -10,6 +10,7 @@
 		EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */; };
 		EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5123FA48F9004F33F5 /* ContentView.swift */; };
 		EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5523FA4CF5004F33F5 /* Settings.swift */; };
+		EE0DA41424045EF8002E78E5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */; };
 		EE2DB5EE23F6F0EF000FFF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */; };
 		EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */; };
 		EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5F123F6F0EF000FFF2A /* Home_View.swift */; };
@@ -29,6 +30,7 @@
 		EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Button.swift; sourceTree = "<group>"; };
 		EE07EB5123FA48F9004F33F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE07EB5523FA4CF5004F33F5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		EE2DB5EA23F6F0EF000FFF2A /* NiteNite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiteNite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */,
 				EE07EB5123FA48F9004F33F5 /* ContentView.swift */,
 				EE07EB5523FA4CF5004F33F5 /* Settings.swift */,
+				EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				EE8CC84523F7204B00D3D55E /* moods.json in Resources */,
 				EE2DB5FA23F6F0F0000FFF2A /* LaunchScreen.storyboard in Resources */,
 				EE2DB5F723F6F0F0000FFF2A /* Preview Assets.xcassets in Resources */,
+				EE0DA41424045EF8002E78E5 /* Launch Screen.storyboard in Resources */,
 				EE2DB5F423F6F0F0000FFF2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

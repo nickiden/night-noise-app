@@ -55,7 +55,9 @@ struct Settings: View {
             // Description about the app
             Section(header: Text("Description").font(.title))
             {
-                Text("So Relaxed is a simple app with no subsriptions or hidden fees. Just soothing sounds to help you sleep. ")
+                Text("Nite Nite is a simple, relaxing app with no subsriptions or hidden fees. Just soothing sounds to help you sleep.")
+                    
+                    Text("If you would like to make it add free just click the link below.")
             }
             
             // Support information for application

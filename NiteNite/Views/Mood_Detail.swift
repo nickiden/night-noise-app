@@ -75,6 +75,7 @@ struct Mood_Detail: View {
 
 struct Mood_Detail_Previews: PreviewProvider {
     static var previews: some View {
-        Mood_Detail(mood: moodData[2])
+        Mood_Detail(mood: moodData[3
+            ])
     }
 }

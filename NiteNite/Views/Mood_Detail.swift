@@ -20,6 +20,7 @@ struct Mood_Detail: View {
                     .resizable()
                     .renderingMode(.original)
                     .aspectRatio(contentMode: .fit)
+                
                     
                 // rectangle for darkening bottom
                 Rectangle()

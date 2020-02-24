@@ -26,18 +26,17 @@ struct Home_View: View {
             
                 ForEach(categories.keys.sorted(), id: \.self ) {key in
                 mood_Row(categoryName: key, moods: self.categories[key]!)
-                    .scaledToFill()
+                   
                     .frame(height: 320)
                     .padding()
-                    
-                    .id(UUID().uuidString)
+                 
                
                 }
                 
                 .navigationBarTitle(Text("Nite Nite"))
                 
         }
-        }
+    }
     }
 }
 

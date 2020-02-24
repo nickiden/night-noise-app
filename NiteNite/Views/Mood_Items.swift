@@ -18,15 +18,17 @@ struct Mood_Items: View {
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 300.0,height:190)
+               
                 .cornerRadius(10)
-                .shadow(radius: 10)
+             .shadow(radius: 10)
+                
             
             VStack (alignment: .leading, spacing: 5.0) {
             
             Text(mood.name)
                 .font(.headline)
                 .fontWeight(.regular)
-                .foregroundColor(Color.black)
+                .foregroundColor(.primary)
                 .multilineTextAlignment(.leading)
                 .lineLimit(2)
                 
@@ -34,7 +36,8 @@ struct Mood_Items: View {
             Text(mood.description)
                 .font(.subheadline)
                 .fontWeight(.regular)
-                //.multilineTextAlignment(.leading)
+                .foregroundColor(Color.black)
+                .multilineTextAlignment(.leading)
                 .lineLimit(2)
                 .frame(height: 40.0)
                 

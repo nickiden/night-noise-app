@@ -34,7 +34,7 @@ struct mood_Row: View {
             }
             ScrollView(.horizontal, showsIndicators: false) {
             // create a for each to get all objects
-                HStack(alignment: .top) {
+                HStack(alignment: .top, spacing: 0) {
                     ForEach (self.moods) {mood in
                         
                         // create nav button
@@ -45,7 +45,7 @@ struct mood_Row: View {
                                 .frame(width: 300, height: 270)
                                 .padding(.trailing, 20)
                                 .padding(.bottom)
-                        }.buttonStyle(PlainButtonStyle())
+                        }
                         
                           
                     }

@@ -23,18 +23,20 @@ struct mood_Row: View {
         VStack {
             
             HStack {
+                
                 // create a text displaying cat name
                 Text(self.categoryName)
                     .font(.title)
                     .fontWeight(.medium)
                     .multilineTextAlignment(.leading)
+                    .padding(.top)
                    
                     Spacer()
                 
             }
             ScrollView(.horizontal, showsIndicators: false) {
             // create a for each to get all objects
-                HStack(alignment: .top, spacing: 0) {
+                HStack(alignment: .top, spacing: 2) {
                     ForEach (self.moods) {mood in
                         
                         // create nav button
@@ -42,8 +44,8 @@ struct mood_Row: View {
                         {
 
                             Mood_Items(mood: mood)
-                                .frame(width: 300, height: 270)
-                                .padding(.trailing, 20)
+                                .frame(width: 320, height: 320)
+                                .padding(.trailing, 15)
                                 .padding(.bottom)
                         }
                         

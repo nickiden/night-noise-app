@@ -17,9 +17,9 @@ struct Mood_Items: View {
                 .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 300.0,height:190)
+                .frame(width: 320.0,height:200)
                
-                .cornerRadius(10)
+                .cornerRadius(20)
              .shadow(radius: 10)
                 
             

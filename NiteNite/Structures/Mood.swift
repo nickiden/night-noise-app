@@ -20,7 +20,7 @@ struct Mood: Hashable,Codable,Identifiable {
     var description:String
     
     enum Category: String, CaseIterable, Codable, Hashable {
-        case Ocean = "Ocean"
+        case Ocean = "Beach"
         case Fire = "Fire"
         case Rain = "Rain"
         case Snow = "Snow"

@@ -36,7 +36,7 @@ struct Home_View: View {
                 .navigationBarTitle(Text("NiteNite"))
                 
         }
-    }
+        }
     }
 }
 

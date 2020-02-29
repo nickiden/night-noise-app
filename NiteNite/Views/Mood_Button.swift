@@ -27,6 +27,7 @@ struct Mood_Button: View {
                     // change string text
                     self.buttonString = "Stop Sound"
                     
+                    
                 } else {
                     
                     self.buttonString = "Play Sound"
@@ -35,16 +36,29 @@ struct Mood_Button: View {
                 
             }) {
                 Text(buttonString)
-                    .frame(width: 200, height: 50)
-                    .foregroundColor(.white)
-                    .font(.headline)
-                    .background(Color.blue)
-                    .cornerRadius(10)
+                    .font(.title)
+                .bold()
+                  
                 
-            }
+            }.buttonStyle(GradientButtonStyle())
         }
     }
 }
+
+
+// Struct to create color style for button
+
+struct GradientButtonStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .frame(width: 270, height: 60)
+            .foregroundColor(Color.white)
+            .background(LinearGradient(gradient: Gradient(colors: [Color.orange, Color.yellow]), startPoint: .leading, endPoint: .trailing))
+            .cornerRadius(15.0)
+    }
+}
+
+
 
 struct Mood_Button_Previews: PreviewProvider {
     static var previews: some View {

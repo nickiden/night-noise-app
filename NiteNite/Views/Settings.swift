@@ -33,12 +33,20 @@ struct Settings: View {
                     Text("Nick Iden")
                     }
                 HStack {
-                    Text("Sound Design")
+                    Text("Sound Engineer")
                         
                         
                         
                     Spacer()
                     Text("Nick Iden")
+                }
+                HStack {
+                    Text("Assistant Sound")
+                        
+                        
+                        
+                    Spacer()
+                    Text("Hannah Iden")
                 }
                
                 

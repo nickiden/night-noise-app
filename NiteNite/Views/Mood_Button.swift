@@ -9,11 +9,14 @@
 //          This is the start/stop button for playing sounds
 
 import SwiftUI
+import AVFoundation
 
 struct Mood_Button: View {
     
     var StartOn: Bool = true
     @State private var buttonString = "Play Sound"
+    // variable for audio player
+    var SoundEffect: AVAudioPlayer?
    
     
     var body: some View {
@@ -43,6 +46,10 @@ struct Mood_Button: View {
             }.buttonStyle(GradientButtonStyle())
         }
     }
+    
+    
+    
+    
 }
 
 
@@ -57,6 +64,8 @@ struct GradientButtonStyle: ButtonStyle {
             .cornerRadius(15.0)
     }
 }
+
+
 
 
 

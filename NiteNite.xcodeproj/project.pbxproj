@@ -20,6 +20,13 @@
 		EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60423F6FC50000FFF2A /* Data.swift */; };
 		EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60E23F70669000FFF2A /* Mood.swift */; };
 		EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */; };
+		EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60472411DF7A00A1D196 /* White Noise.mp3 */; };
+		EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */; };
+		EE8A604F2411DF7B00A1D196 /* Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60492411DF7B00A1D196 /* Rain.mp3 */; };
+		EE8A60502411DF7B00A1D196 /* Rain_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604A2411DF7B00A1D196 /* Rain_2.mp3 */; };
+		EE8A60512411DF7B00A1D196 /* Fire Sound 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604B2411DF7B00A1D196 /* Fire Sound 1.mp3 */; };
+		EE8A60522411DF7B00A1D196 /* Fire Sound 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */; };
+		EE8A60552411E5AE00A1D196 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A60542411E5AE00A1D196 /* AVPlayer.swift */; };
 		EE8CC84523F7204B00D3D55E /* moods.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8CC84423F7204B00D3D55E /* moods.json */; };
 		EEFBE07F23F70A700086DF65 /* Mood_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE07E23F70A700086DF65 /* Mood_Items.swift */; };
 		EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08023F70DDE0086DF65 /* Constaints.swift */; };
@@ -42,6 +49,13 @@
 		EE2DB60423F6FC50000FFF2A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EE2DB60E23F70669000FFF2A /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 		EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Detail.swift; sourceTree = "<group>"; };
+		EE8A60472411DF7A00A1D196 /* White Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "White Noise.mp3"; sourceTree = "<group>"; };
+		EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pink Noise.mp3"; sourceTree = "<group>"; };
+		EE8A60492411DF7B00A1D196 /* Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain.mp3; sourceTree = "<group>"; };
+		EE8A604A2411DF7B00A1D196 /* Rain_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain_2.mp3; sourceTree = "<group>"; };
+		EE8A604B2411DF7B00A1D196 /* Fire Sound 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fire Sound 1.mp3"; sourceTree = "<group>"; };
+		EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fire Sound 2.mp3"; sourceTree = "<group>"; };
+		EE8A60542411E5AE00A1D196 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
 		EE8CC84423F7204B00D3D55E /* moods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = moods.json; path = "../../../../Desktop/Swift App Development Ideas/nitenite/moods.json"; sourceTree = "<group>"; };
 		EEFBE07E23F70A700086DF65 /* Mood_Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Items.swift; sourceTree = "<group>"; };
 		EEFBE08023F70DDE0086DF65 /* Constaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constaints.swift; sourceTree = "<group>"; };
@@ -79,6 +93,8 @@
 		EE2DB5EC23F6F0EF000FFF2A /* NiteNite */ = {
 			isa = PBXGroup;
 			children = (
+				EE8A60532411E57A00A1D196 /* Controllers */,
+				EE8A60462411DF2400A1D196 /* Sounds */,
 				EE8CC84423F7204B00D3D55E /* moods.json */,
 				EE2DB5F523F6F0F0000FFF2A /* Preview Content */,
 				EE8CC84A23F7214F00D3D55E /* Delegates */,
@@ -113,6 +129,27 @@
 				EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EE8A60462411DF2400A1D196 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EE8A604B2411DF7B00A1D196 /* Fire Sound 1.mp3 */,
+				EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */,
+				EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */,
+				EE8A604A2411DF7B00A1D196 /* Rain_2.mp3 */,
+				EE8A60492411DF7B00A1D196 /* Rain.mp3 */,
+				EE8A60472411DF7A00A1D196 /* White Noise.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EE8A60532411E57A00A1D196 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE8A60542411E5AE00A1D196 /* AVPlayer.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		EE8CC84623F720D400D3D55E /* Helpers */ = {
@@ -206,8 +243,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8A604F2411DF7B00A1D196 /* Rain.mp3 in Resources */,
+				EE8A60522411DF7B00A1D196 /* Fire Sound 2.mp3 in Resources */,
+				EE8A60502411DF7B00A1D196 /* Rain_2.mp3 in Resources */,
+				EE8A60512411DF7B00A1D196 /* Fire Sound 1.mp3 in Resources */,
+				EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */,
 				EE8CC84523F7204B00D3D55E /* moods.json in Resources */,
 				EE2DB5FA23F6F0F0000FFF2A /* LaunchScreen.storyboard in Resources */,
+				EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */,
 				EE2DB5F723F6F0F0000FFF2A /* Preview Assets.xcassets in Resources */,
 				EE0DA41424045EF8002E78E5 /* Launch Screen.storyboard in Resources */,
 				EE2DB5F423F6F0F0000FFF2A /* Assets.xcassets in Resources */,
@@ -232,6 +275,7 @@
 				EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */,
 				EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */,
 				EEFBE07F23F70A700086DF65 /* Mood_Items.swift in Sources */,
+				EE8A60552411E5AE00A1D196 /* AVPlayer.swift in Sources */,
 				EEFBE08323F7138D0086DF65 /* mood_Row.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

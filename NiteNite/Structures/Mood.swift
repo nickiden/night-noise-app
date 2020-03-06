@@ -16,6 +16,7 @@ struct Mood: Hashable,Codable,Identifiable {
     var id:Int
     var name:String
     var imageName:String
+    var soundName:String // sound name from json file
     var category:Category
     var description:String
     

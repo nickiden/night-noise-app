@@ -28,6 +28,7 @@ struct mood_Row: View {
                 Text(self.categoryName)
                     .font(.title)
                     .fontWeight(.medium)
+                    .foregroundColor(Color.black)
                     .multilineTextAlignment(.leading)
                     .padding(.top)
                    

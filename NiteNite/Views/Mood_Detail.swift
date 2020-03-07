@@ -11,7 +11,7 @@ import SwiftUI
 struct Mood_Detail: View {
     
     // create mood obj variable
-    var mood: Mood
+   @State var mood: Mood
     
     var body: some View {
         List{
@@ -53,7 +53,7 @@ struct Mood_Detail: View {
                     Spacer()
                     
                     // call button view
-                    Mood_Button()
+                    Mood_Button(mood: $mood)
                     Spacer()
                 }.padding(.top,50)
 

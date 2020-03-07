@@ -15,10 +15,9 @@ struct Mood_Button: View {
     
     var StartOn: Bool = true
     @State private var buttonString = "Play Sound"
-    // variable for audio player
-    var SoundEffect: AVAudioPlayer?
+    @Binding var mood: Mood
    
-    
+   
     var body: some View {
         // create button to start and stop sounds
         VStack {
@@ -30,10 +29,15 @@ struct Mood_Button: View {
                     // change string text
                     self.buttonString = "Stop Sound"
                     
+                    // call sound //////////////////////
+                    playSound(sound: self.mood.soundName)
                     
                 } else {
                     
                     self.buttonString = "Play Sound"
+                    
+                    // call to stop sound
+                    stopSound()
                 
                 }
                 
@@ -63,14 +67,12 @@ struct GradientButtonStyle: ButtonStyle {
             .background(LinearGradient(gradient: Gradient(colors: [Color.orange, Color.yellow]), startPoint: .leading, endPoint: .trailing))
             .cornerRadius(15.0)
     }
+    
+    
+    
 }
 
 
 
 
 
-struct Mood_Button_Previews: PreviewProvider {
-    static var previews: some View {
-        Mood_Button()
-    }
-}

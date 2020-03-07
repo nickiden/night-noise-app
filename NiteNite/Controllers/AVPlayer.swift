@@ -16,9 +16,9 @@ var audioPlayer: AVAudioPlayer?
 // create mood obj variable
 
 
-func playSound() {
+func playSound(sound: String) {
     
-    guard let path = Bundle.main.path(forResource: "", ofType: ".mp3") else { return }
+    guard let path = Bundle.main.path(forResource: sound, ofType: "mp3") else { return }
     let url = URL(fileURLWithPath: path)
     
     do {
@@ -32,6 +32,13 @@ func playSound() {
     }
     
     
+}
+
+
+
+func stopSound() {
+    
+    audioPlayer?.stop()
 }
 
 

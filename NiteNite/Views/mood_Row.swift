@@ -14,8 +14,6 @@ struct mood_Row: View {
     var moods:[Mood]
     
     
-    
-    
     var body: some View {
         
         

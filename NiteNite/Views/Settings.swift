@@ -48,7 +48,14 @@ struct Settings: View {
                
                 
                                
-                        Button(action: {}){
+                        Button(action: {
+                            
+                            // create action to open up youtube channl
+                            if let url = URL(string: "https://www.youtube.com") {
+                                UIApplication.shared.open(url)
+                            }
+                            
+                        }){
                             Text("YouTube Channel")
                                 
                         }
@@ -68,12 +75,28 @@ struct Settings: View {
             // Support information for application
             Section(header: Text("Support").font(.title)){
                 
-                Button(action: {}){
+                Button(action: {
+                    
+                            // create action to open up contact page
+                            if let url = URL(string: "https://nickiden.com/contact") {
+                                UIApplication.shared.open(url)
+                            }
+                }){
                     Text("Contact")
+                    
+                   
                         
                 }
                     
-                Button(action: {}){
+                Button(action: {
+                    
+                    // create action to open up terms page
+                    if let url = URL(string: "https://nickiden.com/contact") {
+                        UIApplication.shared.open(url)
+                    }
+                    
+                    
+                }){
                     Text("Terms and Conditions")
                         
                 }

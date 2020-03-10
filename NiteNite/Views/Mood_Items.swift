@@ -36,7 +36,7 @@ struct Mood_Items: View {
             Text(mood.description)
                 .font(.subheadline)
                 .fontWeight(.regular)
-                .foregroundColor(Color.black)
+                .foregroundColor(.primary)
                 .multilineTextAlignment(.leading)
                 .lineLimit(2)
                 .frame(height: 40.0)

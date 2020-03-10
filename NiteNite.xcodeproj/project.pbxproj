@@ -20,6 +20,7 @@
 		EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60423F6FC50000FFF2A /* Data.swift */; };
 		EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60E23F70669000FFF2A /* Mood.swift */; };
 		EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */; };
+		EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84705F2417DD0600370BE2 /* Terms_View.swift */; };
 		EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60472411DF7A00A1D196 /* White Noise.mp3 */; };
 		EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */; };
 		EE8A604F2411DF7B00A1D196 /* Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60492411DF7B00A1D196 /* Rain.mp3 */; };
@@ -49,6 +50,7 @@
 		EE2DB60423F6FC50000FFF2A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EE2DB60E23F70669000FFF2A /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 		EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Detail.swift; sourceTree = "<group>"; };
+		EE84705F2417DD0600370BE2 /* Terms_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms_View.swift; sourceTree = "<group>"; };
 		EE8A60472411DF7A00A1D196 /* White Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "White Noise.mp3"; sourceTree = "<group>"; };
 		EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pink Noise.mp3"; sourceTree = "<group>"; };
 		EE8A60492411DF7B00A1D196 /* Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain.mp3; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				EE07EB5123FA48F9004F33F5 /* ContentView.swift */,
 				EE07EB5523FA4CF5004F33F5 /* Settings.swift */,
 				EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */,
+				EE84705F2417DD0600370BE2 /* Terms_View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */,
 				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */,
+				EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */,
 				EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */,
 				EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */,
 				EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */,

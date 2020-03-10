@@ -22,11 +22,8 @@ struct Settings: View {
             Section(header: Text("About").font(.title)){
                            
                 HStack {
-                    Button(action: {}){
-                                   Text("Developer")
-                                       
-                            
-                    }
+                   
+                    Text("Developer")
                 
                     
                     Spacer()
@@ -65,7 +62,7 @@ struct Settings: View {
             {
                 Text("Nite Nite is a simple, relaxing app with no subsriptions or hidden fees. Just soothing sounds to help you sleep.")
                     
-                    Text("If you would like to make it add free just click the link below.")
+                    Text("This project came about because my wife was having trouble sleeping, so my daughter and I decided to make something to help her out.")
             }
             
             // Support information for application
@@ -80,23 +77,20 @@ struct Settings: View {
                     Text("Terms and Conditions")
                         
                 }
-                Button(action: {}){
-                    Text("FAQ")
-                        
-                }
+                
                     
             }
             
             // create link to paid version
-            Section {
+            //Section {
                 // button to offer ad free app. The action will connect to app store
                 
-                HStack {
-                   Spacer()
-                    Button(action: {}) {Text("Remove Ads")}
-                    Spacer()
-                }
-            }
+             //   HStack {
+             //      Spacer()
+             //       Button(action: {}) {Text("Remove Ads")}
+             //       Spacer()
+             //   }
+           // }
             
             
         }

@@ -10,7 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-       
+        
+        
+        
         TabView{
             
             // home view
@@ -47,3 +49,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

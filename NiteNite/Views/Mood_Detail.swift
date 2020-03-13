@@ -62,7 +62,8 @@ struct Mood_Detail: View {
             }.padding(.top)
                 .padding(.bottom)
             
-        } // get rid of safe space
+        }
+            // get rid of safe space
             .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
         

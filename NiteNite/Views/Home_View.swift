@@ -29,14 +29,13 @@ struct Home_View: View {
                    
                     .frame(height: 320)
                     .padding()
-                 
-               
+                    
                 }
-                
                 .navigationBarTitle(Text("NiteNite"))
                 
         }
-        }
+    }
+       
     }
 }
 

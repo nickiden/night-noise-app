@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EF83B82C8298D5D9814BC3B /* Pods_NiteNite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EE2E001CA134CF1FA3070D /* Pods_NiteNite.framework */; };
 		EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */; };
 		EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5123FA48F9004F33F5 /* ContentView.swift */; };
 		EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5523FA4CF5004F33F5 /* Settings.swift */; };
@@ -29,12 +30,16 @@
 		EE8A60522411DF7B00A1D196 /* Fire Sound 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */; };
 		EE8A60552411E5AE00A1D196 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A60542411E5AE00A1D196 /* AVPlayer.swift */; };
 		EE8CC84523F7204B00D3D55E /* moods.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8CC84423F7204B00D3D55E /* moods.json */; };
+		EED0FAEC241B034200A6838A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0FAEB241B034200A6838A /* BannerView.swift */; };
 		EEFBE07F23F70A700086DF65 /* Mood_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE07E23F70A700086DF65 /* Mood_Items.swift */; };
 		EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08023F70DDE0086DF65 /* Constaints.swift */; };
 		EEFBE08323F7138D0086DF65 /* mood_Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08223F7138D0086DF65 /* mood_Row.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39DCBACF6E210E67758AD490 /* Pods-NiteNite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiteNite.release.xcconfig"; path = "Target Support Files/Pods-NiteNite/Pods-NiteNite.release.xcconfig"; sourceTree = "<group>"; };
+		A2EE2E001CA134CF1FA3070D /* Pods_NiteNite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiteNite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F8A69453B3352EF499525 /* Pods-NiteNite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiteNite.debug.xcconfig"; path = "Target Support Files/Pods-NiteNite/Pods-NiteNite.debug.xcconfig"; sourceTree = "<group>"; };
 		EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Button.swift; sourceTree = "<group>"; };
 		EE07EB5123FA48F9004F33F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE07EB5523FA4CF5004F33F5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 		EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fire Sound 2.mp3"; sourceTree = "<group>"; };
 		EE8A60542411E5AE00A1D196 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
 		EE8CC84423F7204B00D3D55E /* moods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = moods.json; path = "../../../../Desktop/Swift App Development Ideas/nitenite/moods.json"; sourceTree = "<group>"; };
+		EED0FAEB241B034200A6838A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		EEFBE07E23F70A700086DF65 /* Mood_Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Items.swift; sourceTree = "<group>"; };
 		EEFBE08023F70DDE0086DF65 /* Constaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constaints.swift; sourceTree = "<group>"; };
 		EEFBE08223F7138D0086DF65 /* mood_Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mood_Row.swift; sourceTree = "<group>"; };
@@ -69,18 +75,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF83B82C8298D5D9814BC3B /* Pods_NiteNite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D697FB8D8C2430C05A10524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2EE2E001CA134CF1FA3070D /* Pods_NiteNite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58405E1C32FE0E71F3BFB3D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A60F8A69453B3352EF499525 /* Pods-NiteNite.debug.xcconfig */,
+				39DCBACF6E210E67758AD490 /* Pods-NiteNite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EE2DB5E123F6F0EF000FFF2A = {
 			isa = PBXGroup;
 			children = (
 				EE2DB5EC23F6F0EF000FFF2A /* NiteNite */,
 				EE8CC84623F720D400D3D55E /* Helpers */,
 				EE2DB5EB23F6F0EF000FFF2A /* Products */,
+				58405E1C32FE0E71F3BFB3D4 /* Pods */,
+				2D697FB8D8C2430C05A10524 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +156,7 @@
 				EE07EB5523FA4CF5004F33F5 /* Settings.swift */,
 				EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */,
 				EE84705F2417DD0600370BE2 /* Terms_View.swift */,
+				EED0FAEB241B034200A6838A /* BannerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE2DB5FE23F6F0F0000FFF2A /* Build configuration list for PBXNativeTarget "NiteNite" */;
 			buildPhases = (
+				D079AD8E09390443FEC1B011 /* [CP] Check Pods Manifest.lock */,
 				EE2DB5E623F6F0EF000FFF2A /* Sources */,
 				EE2DB5E723F6F0EF000FFF2A /* Frameworks */,
 				EE2DB5E823F6F0EF000FFF2A /* Resources */,
+				E51161672639CA72791A8519 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +291,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D079AD8E09390443FEC1B011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiteNite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51161672639CA72791A8519 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiteNite/Pods-NiteNite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiteNite/Pods-NiteNite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiteNite/Pods-NiteNite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE2DB5E623F6F0EF000FFF2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +343,7 @@
 				EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */,
 				EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */,
 				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
+				EED0FAEC241B034200A6838A /* BannerView.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */,
 				EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */,
 				EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */,
@@ -414,6 +486,7 @@
 		};
 		EE2DB5FF23F6F0F0000FFF2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60F8A69453B3352EF499525 /* Pods-NiteNite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,6 +507,7 @@
 		};
 		EE2DB60023F6F0F0000FFF2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DCBACF6E210E67758AD490 /* Pods-NiteNite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

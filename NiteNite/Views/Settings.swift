@@ -51,7 +51,7 @@ struct Settings: View {
                         Button(action: {
                             
                             // create action to open up youtube channl
-                            if let url = URL(string: "https://www.youtube.com") {
+                            if let url = URL(string: "https://www.youtube.com/channel/UC-8nyTV2BmksRk9t_uztqaQ?view_as=subscriber") {
                                 UIApplication.shared.open(url)
                             }
                             

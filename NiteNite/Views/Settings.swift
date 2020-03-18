@@ -101,18 +101,6 @@ struct Settings: View {
             }
             
             
-            // create link to paid version
-            //Section {
-                // button to offer ad free app. The action will connect to app store
-                
-             //   HStack {
-             //      Spacer()
-             //       Button(action: {}) {Text("Remove Ads")}
-             //       Spacer()
-             //   }
-           // }
-            
-            
         }
     }
 }

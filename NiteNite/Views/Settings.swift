@@ -38,7 +38,7 @@ struct Settings: View {
                     Text("Nick Iden")
                 }
                 HStack {
-                    Text("Assistant Sound")
+                    Text("Assistant Sound Engineer")
                         
                         
                         
@@ -83,20 +83,23 @@ struct Settings: View {
                             }
                 }){
                     Text("Contact")
-                    
-                
                 }
-           
-                    
-                NavigationLink(destination: Terms_View()){
-                    Text("Terms and Conditions")
-                    
-                }.buttonStyle(PlainButtonStyle())
-                    
-            
                 
+                Button(action: {
+                    
+                            // create action to open up contact page
+                            if let url = URL(string: "https://nickiden.com/app-privacy") {
+                                UIApplication.shared.open(url)
+                            }
+                }){
+                    Text("Privacy Policy")
+                }
+                
+            
+
                     
             }
+            
             
             // create link to paid version
             //Section {

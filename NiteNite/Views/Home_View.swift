@@ -19,6 +19,7 @@ struct Home_View: View {
     
     
     var body: some View {
+        VStack {
         
         NavigationView {
             
@@ -35,7 +36,9 @@ struct Home_View: View {
                 
         }
     }
-       
+            BannerView()
+        
+        }
     }
 }
 

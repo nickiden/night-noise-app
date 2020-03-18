@@ -25,6 +25,8 @@ func playSound(sound: String) {
         
         audioPlayer = try AVAudioPlayer(contentsOf: url)
         audioPlayer?.play()
+        audioPlayer?.numberOfLoops = -1
+        
     } catch {
         // could not load file
         return

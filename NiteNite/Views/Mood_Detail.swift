@@ -14,14 +14,14 @@ struct Mood_Detail: View {
    @State var mood: Mood
     
     var body: some View {
+        
+        VStack {
         List{
             ZStack (alignment: .bottom){
                 Image(mood.imageName)
                     .resizable()
                     .renderingMode(.original)
                     .aspectRatio(contentMode: .fit)
-                
-                    
                 // rectangle for darkening bottom
                 Rectangle()
                     .frame(height: 80)
@@ -66,6 +66,12 @@ struct Mood_Detail: View {
             // get rid of safe space
             .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
+            
+            // add banner view for advertisments
+            
+          //  BannerView()
+        
+    }
         
     }
 }

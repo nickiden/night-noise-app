@@ -67,9 +67,9 @@ struct Settings: View {
             // Description about the app
             Section(header: Text("Description").font(.title))
             {
-                Text("Nite Nite is a simple, relaxing app with no subsriptions or hidden fees. Just soothing sounds to help you sleep.")
+                Text("NiteNite is a simple, relaxing app with no subsriptions or hidden fees. Just soothing sounds to help you sleep.")
                     
-                    Text("This project came about because my wife was having trouble sleeping, so my daughter and I decided to make something to help her out.")
+                    Text("This project came about to help my friends and family sleep. My daughter and myself designed and recorded the sounds. More sounds will be added as this app grows.")
             }
             
             // Support information for application
@@ -84,22 +84,16 @@ struct Settings: View {
                 }){
                     Text("Contact")
                     
-                   
-                        
+                
                 }
+           
                     
-                Button(action: {
-                    
-                    // create action to open up terms page
-                    if let url = URL(string: "https://nickiden.com/contact") {
-                        UIApplication.shared.open(url)
-                    }
-                    
-                    
-                }){
+                NavigationLink(destination: Terms_View()){
                     Text("Terms and Conditions")
-                        
-                }
+                    
+                }.buttonStyle(PlainButtonStyle())
+                    
+            
                 
                     
             }

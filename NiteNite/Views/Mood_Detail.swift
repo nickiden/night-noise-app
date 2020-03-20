@@ -44,7 +44,7 @@ struct Mood_Detail: View {
             VStack(alignment: .leading) {
                 Text(mood.description)
                     .font(.body)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(.primary)
                     .lineLimit(nil)
                     .lineSpacing(12)
                 

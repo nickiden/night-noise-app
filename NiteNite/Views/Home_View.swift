@@ -28,7 +28,7 @@ struct Home_View: View {
                 ForEach(categories.keys.sorted(), id: \.self ) {key in
                 mood_Row(categoryName: key, moods: self.categories[key]!)
                    
-                    .frame(height: 320)
+                    .frame(height: 325)
                     .padding(.top)
                     
                 }

@@ -17,9 +17,9 @@
 		EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5F123F6F0EF000FFF2A /* Home_View.swift */; };
 		EE2DB5F423F6F0F0000FFF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2DB5F323F6F0F0000FFF2A /* Assets.xcassets */; };
 		EE2DB5F723F6F0F0000FFF2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2DB5F623F6F0F0000FFF2A /* Preview Assets.xcassets */; };
-		EE2DB5FA23F6F0F0000FFF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2DB5F823F6F0F0000FFF2A /* LaunchScreen.storyboard */; };
 		EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60423F6FC50000FFF2A /* Data.swift */; };
 		EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60E23F70669000FFF2A /* Mood.swift */; };
+		EE3378CE242422B30042B209 /* Waterfall 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE3378CD242422B30042B209 /* Waterfall 1.mp3 */; };
 		EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */; };
 		EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84705F2417DD0600370BE2 /* Terms_View.swift */; };
 		EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60472411DF7A00A1D196 /* White Noise.mp3 */; };
@@ -52,10 +52,10 @@
 		EE2DB5F123F6F0EF000FFF2A /* Home_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_View.swift; sourceTree = "<group>"; };
 		EE2DB5F323F6F0F0000FFF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2DB5F623F6F0F0000FFF2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE2DB5F923F6F0F0000FFF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE2DB5FB23F6F0F0000FFF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2DB60423F6FC50000FFF2A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EE2DB60E23F70669000FFF2A /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		EE3378CD242422B30042B209 /* Waterfall 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waterfall 1.mp3"; sourceTree = "<group>"; };
 		EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Detail.swift; sourceTree = "<group>"; };
 		EE84705F2417DD0600370BE2 /* Terms_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms_View.swift; sourceTree = "<group>"; };
 		EE8A60472411DF7A00A1D196 /* White Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "White Noise.mp3"; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 				EE8CC84923F7212900D3D55E /* Structures */,
 				EE8CC84823F720FB00D3D55E /* Data */,
 				EE2DB60B23F7047A000FFF2A /* Views */,
-				EE2DB5F823F6F0F0000FFF2A /* LaunchScreen.storyboard */,
 				EE2DB5FB23F6F0F0000FFF2A /* Info.plist */,
+				EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */,
 			);
 			path = NiteNite;
 			sourceTree = "<group>";
@@ -158,7 +158,6 @@
 				EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */,
 				EE07EB5123FA48F9004F33F5 /* ContentView.swift */,
 				EE07EB5523FA4CF5004F33F5 /* Settings.swift */,
-				EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */,
 				EE84705F2417DD0600370BE2 /* Terms_View.swift */,
 				EED0FAEB241B034200A6838A /* BannerView.swift */,
 			);
@@ -171,6 +170,7 @@
 				EE8A604B2411DF7B00A1D196 /* Fire Sound 1.mp3 */,
 				EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */,
 				EE9FC585241E99F100C09A00 /* Beach1.mp3 */,
+				EE3378CD242422B30042B209 /* Waterfall 1.mp3 */,
 				EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */,
 				EEB0CA30241E9F630005C076 /* Rain 2.mp3 */,
 				EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */,
@@ -285,11 +285,11 @@
 				EE8A60512411DF7B00A1D196 /* Fire Sound 1.mp3 in Resources */,
 				EE9FC586241E99F200C09A00 /* Beach1.mp3 in Resources */,
 				EEF1F014241EF34A00B827F4 /* Beach 2.mp3 in Resources */,
+				EE3378CE242422B30042B209 /* Waterfall 1.mp3 in Resources */,
 				EEB0CA31241E9F630005C076 /* Rain 2.mp3 in Resources */,
 				EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */,
 				EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */,
 				EE8CC84523F7204B00D3D55E /* moods.json in Resources */,
-				EE2DB5FA23F6F0F0000FFF2A /* LaunchScreen.storyboard in Resources */,
 				EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */,
 				EE2DB5F723F6F0F0000FFF2A /* Preview Assets.xcassets in Resources */,
 				EE0DA41424045EF8002E78E5 /* Launch Screen.storyboard in Resources */,
@@ -365,17 +365,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EE2DB5F823F6F0F0000FFF2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE2DB5F923F6F0F0000FFF2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EE2DB5FC23F6F0F0000FFF2A /* Debug */ = {

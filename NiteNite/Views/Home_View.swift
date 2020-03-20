@@ -29,7 +29,7 @@ struct Home_View: View {
                 mood_Row(categoryName: key, moods: self.categories[key]!)
                    
                     .frame(height: 320)
-                    .padding()
+                    //.padding()
                     
                 }
                 .navigationBarTitle(Text("NiteNite"))

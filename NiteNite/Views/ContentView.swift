@@ -34,6 +34,13 @@ struct ContentView: View {
                 Text("About")
                 //.padding()
                     
+            }.tag(1)
+            
+            // Terms
+            Terms_View()
+                .tabItem() {
+            Image(systemName: "doc.plaintext")
+            Text("Terms")
             }
             
         }

@@ -2,7 +2,10 @@
   "images" : [
     {
       "idiom" : "universal",
+
+
       "filename" : "Fire1.jpg",
+
       "scale" : "1x"
     },
     {

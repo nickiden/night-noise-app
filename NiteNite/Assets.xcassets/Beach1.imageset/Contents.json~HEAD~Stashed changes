@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Fire2.jpg",
+      "filename" : "Beach1.jpg",
       "scale" : "1x"
     },
     {
@@ -13,9 +13,14 @@
       "idiom" : "universal",
       "scale" : "3x"
     }
+<<<<<<< Updated upstream:NiteNite/Assets.xcassets/􀎞.dataset/Contents.json
+  ]
+}
+=======
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
   }
 }
+>>>>>>> Stashed changes:NiteNite/Assets.xcassets/Beach1.imageset/Contents.json~HEAD

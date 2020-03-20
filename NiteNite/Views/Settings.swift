@@ -69,7 +69,7 @@ struct Settings: View {
             {
                 Text("NiteNite is a simple, relaxing app with no subsriptions or hidden fees. Just soothing sounds to help you sleep.")
                     
-                    Text("This project came about to help my friends and family sleep. My daughter and myself designed and recorded the sounds. More sounds will be added as this app grows.")
+                    Text("This project came about to help my friends and family sleep. My daughter and myself designed and recorded the sounds in my studio. More sounds will be added as this app grows. Thanks for checking this out . Nick Iden")
             }
             
             // Support information for application

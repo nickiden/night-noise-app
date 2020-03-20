@@ -29,6 +29,7 @@ struct mood_Row: View {
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.leading)
                     .padding(.top)
+                    
                    
                     Spacer()
                 
@@ -45,7 +46,7 @@ struct mood_Row: View {
                             Mood_Items(mood: mood)
                                 .frame(width: 320, height: 320)
                                 .padding(.trailing, 15)
-                                .padding(.bottom)
+                                
                         }
                         
                           

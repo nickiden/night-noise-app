@@ -13,8 +13,6 @@ import AVFoundation
 
 var audioPlayer: AVAudioPlayer?
 
-// create mood obj variable
-
 
 func playSound(sound: String) {
     
@@ -33,7 +31,6 @@ func playSound(sound: String) {
         
     }
     
-    
 }
 
 
@@ -41,6 +38,15 @@ func playSound(sound: String) {
 func stopSound() {
     
     audioPlayer?.stop()
+    
 }
+
+func viewWillDisappear(animated: Bool) {
+    audioPlayer?.pause()
+
+}
+
+
+  
 
 

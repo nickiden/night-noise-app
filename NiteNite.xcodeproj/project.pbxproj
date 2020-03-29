@@ -11,6 +11,7 @@
 		EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */; };
 		EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5123FA48F9004F33F5 /* ContentView.swift */; };
 		EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5523FA4CF5004F33F5 /* Settings.swift */; };
+		EE12FE872430162C00857DD4 /* ODManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FE862430162C00857DD4 /* ODManager.swift */; };
 		EE2DB5EE23F6F0EF000FFF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */; };
 		EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */; };
 		EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5F123F6F0EF000FFF2A /* Home_View.swift */; };
@@ -18,21 +19,21 @@
 		EE2DB5F723F6F0F0000FFF2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2DB5F623F6F0F0000FFF2A /* Preview Assets.xcassets */; };
 		EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60423F6FC50000FFF2A /* Data.swift */; };
 		EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60E23F70669000FFF2A /* Mood.swift */; };
-		EE3378CE242422B30042B209 /* Waterfall 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE3378CD242422B30042B209 /* Waterfall 1.mp3 */; };
+		EE3378CE242422B30042B209 /* Waterfall 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE3378CD242422B30042B209 /* Waterfall 1.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
 		EE42C0CA24247D6B009EFE79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE42C0C924247D6B009EFE79 /* Default-568h@2x.png */; };
 		EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */; };
 		EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84705F2417DD0600370BE2 /* Terms_View.swift */; };
-		EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60472411DF7A00A1D196 /* White Noise.mp3 */; };
-		EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */; };
-		EE8A60512411DF7B00A1D196 /* Fire Sound 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604B2411DF7B00A1D196 /* Fire Sound 1.mp3 */; };
-		EE8A60522411DF7B00A1D196 /* Fire Sound 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */; };
+		EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60472411DF7A00A1D196 /* White Noise.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
+		EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60482411DF7A00A1D196 /* Pink Noise.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
+		EE8A60512411DF7B00A1D196 /* Fire Sound 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604B2411DF7B00A1D196 /* Fire Sound 1.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
+		EE8A60522411DF7B00A1D196 /* Fire Sound 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A604C2411DF7B00A1D196 /* Fire Sound 2.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
 		EE8A60552411E5AE00A1D196 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A60542411E5AE00A1D196 /* AVPlayer.swift */; };
 		EE8CC84523F7204B00D3D55E /* moods.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8CC84423F7204B00D3D55E /* moods.json */; };
-		EE9FC586241E99F200C09A00 /* Beach1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE9FC585241E99F100C09A00 /* Beach1.mp3 */; };
-		EEB0CA31241E9F630005C076 /* Rain 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB0CA30241E9F630005C076 /* Rain 2.mp3 */; };
-		EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC95C92241EA268000AC7FC /* Rain1.mp3 */; };
+		EE9FC586241E99F200C09A00 /* Beach1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE9FC585241E99F100C09A00 /* Beach1.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
+		EEB0CA31241E9F630005C076 /* Rain 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB0CA30241E9F630005C076 /* Rain 2.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
+		EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC95C92241EA268000AC7FC /* Rain1.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
 		EED0FAEC241B034200A6838A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0FAEB241B034200A6838A /* BannerView.swift */; };
-		EEF1F014241EF34A00B827F4 /* Beach 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */; };
+		EEF1F014241EF34A00B827F4 /* Beach 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
 		EEFBE07F23F70A700086DF65 /* Mood_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE07E23F70A700086DF65 /* Mood_Items.swift */; };
 		EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08023F70DDE0086DF65 /* Constaints.swift */; };
 		EEFBE08323F7138D0086DF65 /* mood_Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08223F7138D0086DF65 /* mood_Row.swift */; };
@@ -45,6 +46,7 @@
 		EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Button.swift; sourceTree = "<group>"; };
 		EE07EB5123FA48F9004F33F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE07EB5523FA4CF5004F33F5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		EE12FE862430162C00857DD4 /* ODManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODManager.swift; sourceTree = "<group>"; };
 		EE2DB5EA23F6F0EF000FFF2A /* NiteNite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiteNite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				EE8A60542411E5AE00A1D196 /* AVPlayer.swift */,
+				EE12FE862430162C00857DD4 /* ODManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,6 +252,10 @@
 		EE2DB5E223F6F0EF000FFF2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					image_prefetch,
+					sounds_prefetch,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Nick Iden";
@@ -353,6 +360,7 @@
 				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
 				EED0FAEC241B034200A6838A /* BannerView.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */,
+				EE12FE872430162C00857DD4 /* ODManager.swift in Sources */,
 				EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */,
 				EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */,
 				EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */,
@@ -487,7 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
 				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
@@ -496,7 +504,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.01;
+				MARKETING_VERSION = 1.02;
+				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "image_prefetch sounds_prefetch";
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -510,7 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
 				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
@@ -519,7 +528,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.01;
+				MARKETING_VERSION = 1.02;
+				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "image_prefetch sounds_prefetch";
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

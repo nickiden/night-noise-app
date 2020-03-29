@@ -16,9 +16,14 @@ struct Home_View: View {
         by: {$0.category.rawValue}
     )
 }
-    
+    // set state to stop sound
+    var soundOff: Bool = true
+    var request: NSBundleResourceRequest!
     
     var body: some View {
+        
+        
+        
         VStack {
         
         NavigationView {
@@ -31,16 +36,26 @@ struct Home_View: View {
                     .frame(height: 325)
                     .padding(.top)
                     
+                    
                 }
                 .navigationBarTitle(Text("NiteNite"))
                 
+                
         }
+            
+            
+         
     }
             BannerView()
-        
+            
         }
     }
+    
+    
+    
 }
+
+
 
 
 struct Home_View_Previews: PreviewProvider {

@@ -38,6 +38,7 @@ struct Mood_Button: View {
                     
                     // call to stop sound
                     stopSound()
+                    
                 
                 }
                 

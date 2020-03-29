@@ -7,13 +7,17 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct Mood_Detail: View {
     
     // create mood obj variable
    @State var mood: Mood
     
+    
+    
     var body: some View {
+        
         
         VStack {
         List{
@@ -56,8 +60,6 @@ struct Mood_Detail: View {
                     Mood_Button(mood: $mood)
                     Spacer()
                 }.padding(.top,50)
-
-                
                 
             }.padding(.top)
                 .padding(.bottom)
@@ -67,14 +69,14 @@ struct Mood_Detail: View {
             .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
             
-            // add banner view for advertisments
-            
-          //  BannerView()
-        
     }
         
+    
     }
+    
+    
 }
+
 
 
 

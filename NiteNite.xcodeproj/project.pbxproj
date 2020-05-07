@@ -11,7 +11,7 @@
 		EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */; };
 		EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5123FA48F9004F33F5 /* ContentView.swift */; };
 		EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5523FA4CF5004F33F5 /* Settings.swift */; };
-		EE12FE872430162C00857DD4 /* ODManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FE862430162C00857DD4 /* ODManager.swift */; };
+		EE12FE872430162C00857DD4 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FE862430162C00857DD4 /* ODRManager.swift */; };
 		EE2DB5EE23F6F0EF000FFF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */; };
 		EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */; };
 		EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5F123F6F0EF000FFF2A /* Home_View.swift */; };
@@ -31,6 +31,7 @@
 		EE8CC84523F7204B00D3D55E /* moods.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8CC84423F7204B00D3D55E /* moods.json */; };
 		EE9FC586241E99F200C09A00 /* Beach1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE9FC585241E99F100C09A00 /* Beach1.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
 		EEB0CA31241E9F630005C076 /* Rain 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB0CA30241E9F630005C076 /* Rain 2.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
+		EEC6257D2464AC9E00E4ACD4 /* AssetDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */; };
 		EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC95C92241EA268000AC7FC /* Rain1.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
 		EED0FAEC241B034200A6838A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0FAEB241B034200A6838A /* BannerView.swift */; };
 		EEF1F014241EF34A00B827F4 /* Beach 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */; settings = {ASSET_TAGS = (sounds_prefetch, ); }; };
@@ -46,7 +47,7 @@
 		EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Button.swift; sourceTree = "<group>"; };
 		EE07EB5123FA48F9004F33F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE07EB5523FA4CF5004F33F5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		EE12FE862430162C00857DD4 /* ODManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODManager.swift; sourceTree = "<group>"; };
+		EE12FE862430162C00857DD4 /* ODRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODRManager.swift; sourceTree = "<group>"; };
 		EE2DB5EA23F6F0EF000FFF2A /* NiteNite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiteNite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		EE8CC84423F7204B00D3D55E /* moods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = moods.json; path = "../../../../Desktop/Swift App Development Ideas/nitenite/moods.json"; sourceTree = "<group>"; };
 		EE9FC585241E99F100C09A00 /* Beach1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beach1.mp3; sourceTree = "<group>"; };
 		EEB0CA30241E9F630005C076 /* Rain 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rain 2.mp3"; sourceTree = "<group>"; };
+		EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDownloadManager.swift; sourceTree = "<group>"; };
 		EEC95C92241EA268000AC7FC /* Rain1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain1.mp3; sourceTree = "<group>"; };
 		EED0FAEB241B034200A6838A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beach 2.mp3"; sourceTree = "<group>"; };
@@ -186,7 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				EE8A60542411E5AE00A1D196 /* AVPlayer.swift */,
-				EE12FE862430162C00857DD4 /* ODManager.swift */,
+				EE12FE862430162C00857DD4 /* ODRManager.swift */,
+				EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -358,9 +361,10 @@
 				EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */,
 				EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */,
 				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
+				EEC6257D2464AC9E00E4ACD4 /* AssetDownloadManager.swift in Sources */,
 				EED0FAEC241B034200A6838A /* BannerView.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */,
-				EE12FE872430162C00857DD4 /* ODManager.swift in Sources */,
+				EE12FE872430162C00857DD4 /* ODRManager.swift in Sources */,
 				EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */,
 				EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */,
 				EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */,

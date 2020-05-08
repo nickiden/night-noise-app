@@ -21,6 +21,8 @@
 		EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60E23F70669000FFF2A /* Mood.swift */; };
 		EE3378CE242422B30042B209 /* Waterfall 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE3378CD242422B30042B209 /* Waterfall 1.mp3 */; };
 		EE42C0CA24247D6B009EFE79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE42C0C924247D6B009EFE79 /* Default-568h@2x.png */; };
+		EE4BF7BC2465DBC70058457D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4BF7BB2465DBC70058457D /* ProgressBar.swift */; };
+		EE4BF7BE2465EAEE0058457D /* WaitingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4BF7BD2465EAEE0058457D /* WaitingSpinner.swift */; };
 		EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */; };
 		EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84705F2417DD0600370BE2 /* Terms_View.swift */; };
 		EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60472411DF7A00A1D196 /* White Noise.mp3 */; };
@@ -59,6 +61,8 @@
 		EE2DB60E23F70669000FFF2A /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 		EE3378CD242422B30042B209 /* Waterfall 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waterfall 1.mp3"; sourceTree = "<group>"; };
 		EE42C0C924247D6B009EFE79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EE4BF7BB2465DBC70058457D /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		EE4BF7BD2465EAEE0058457D /* WaitingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingSpinner.swift; sourceTree = "<group>"; };
 		EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Detail.swift; sourceTree = "<group>"; };
 		EE84705F2417DD0600370BE2 /* Terms_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms_View.swift; sourceTree = "<group>"; };
 		EE8A60472411DF7A00A1D196 /* White Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "White Noise.mp3"; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				EE07EB5523FA4CF5004F33F5 /* Settings.swift */,
 				EE84705F2417DD0600370BE2 /* Terms_View.swift */,
 				EED0FAEB241B034200A6838A /* BannerView.swift */,
+				EE4BF7BB2465DBC70058457D /* ProgressBar.swift */,
+				EE4BF7BD2465EAEE0058457D /* WaitingSpinner.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -359,7 +365,9 @@
 				EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */,
 				EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */,
 				EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */,
+				EE4BF7BC2465DBC70058457D /* ProgressBar.swift in Sources */,
 				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
+				EE4BF7BE2465EAEE0058457D /* WaitingSpinner.swift in Sources */,
 				EEC6257D2464AC9E00E4ACD4 /* AssetDownloadManager.swift in Sources */,
 				EED0FAEC241B034200A6838A /* BannerView.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */,
@@ -498,7 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
 				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
@@ -507,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.03;
+				MARKETING_VERSION = 1.04;
 				ON_DEMAND_RESOURCES_PREFETCH_ORDER = image_prefetch;
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
 				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
@@ -531,7 +539,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.03;
+				MARKETING_VERSION = 1.04;
 				ON_DEMAND_RESOURCES_PREFETCH_ORDER = image_prefetch;
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";

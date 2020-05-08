@@ -11,8 +11,6 @@ import SwiftUI
 
 struct Home_View: View {
     
-    
-    
     var categories:[String:[Mood]] {
     Dictionary(
         grouping: moodData,
@@ -23,20 +21,9 @@ struct Home_View: View {
     var soundOff: Bool = true
     var request: NSBundleResourceRequest!
     
-    let array = ["image_prefetch","sounds_prefetch"]
-    
-    // make download function here?
-  
-    
 
-    
     var body: some View {
         
-        
-        
-     // function made based on site https://cartoonsmart.com/on-demand-resources-in-ios9-with-spritekit/
-       AssetDownloadManager.shared.loadResourcesWithTag(tagArray: array)
-       var bodyView: some View {
         VStack {
             
             NavigationView {
@@ -49,7 +36,6 @@ struct Home_View: View {
                         .frame(height: 325)
                         .padding(.top)
                         
-                        
                     }
                     .navigationBarTitle(Text("NiteNite"))
                 }
@@ -58,8 +44,7 @@ struct Home_View: View {
             // call banner method for add
             BannerView()
         }
-      }
-      return bodyView
+     
     }
     
     

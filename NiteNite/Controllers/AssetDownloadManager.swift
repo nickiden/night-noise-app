@@ -19,6 +19,9 @@ class AssetDownloadManager{
        let tags = NSSet(array: tagArray)
        let resourceRequest:NSBundleResourceRequest = NSBundleResourceRequest(tags: tags as! Set<String>)
         
+        // set load priority
+        resourceRequest.loadingPriority = NSBundleResourceRequestLoadingPriorityUrgent
+        
        resourceRequest.conditionallyBeginAccessingResources {(resourcesAvailable: Bool) -> Void in
            if resourcesAvailable {
                print("On Demand Resources already available")

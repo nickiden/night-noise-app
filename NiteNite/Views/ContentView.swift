@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let array = ["image_prefetch"]
+    
     var body: some View {
         
+        // Call function to load on-demand resorces
+        AssetDownloadManager.shared.loadResourcesWithTag(tagArray: array)
+        
+        var bodyView: some View {
+            
         TabView{
             
             // home view
@@ -42,6 +50,8 @@ struct ContentView: View {
             }
             
         }
+        }
+        return bodyView
         
     }
 }

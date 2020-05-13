@@ -5,6 +5,9 @@
 //  Created by Nick Iden on 2020-02-16.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
+//  Comments:
+//              Settings page for app. Directs user to other social medias
+//              as well as lists people involved in application.
 
 import SwiftUI
 

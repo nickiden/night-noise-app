@@ -5,20 +5,22 @@
 //  Created by Nick Iden on 2020-02-16.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
+//  Comments:
+//              Contentview for app. Navigation bar is in place and function
+//              called to retrieve on-demand resorces/
 
 import SwiftUI
 
 struct ContentView: View {
     
-    let array = ["image_prefetch"]
+   let array = ["image_prefetch"]
     
     var body: some View {
-        
+    
         // Call function to load on-demand resorces
         AssetDownloadManager.shared.loadResourcesWithTag(tagArray: array)
         
         var bodyView: some View {
-            
         TabView{
             
             // home view
@@ -52,9 +54,11 @@ struct ContentView: View {
         }
         }
         return bodyView
+     
         
     }
 }
+    
 
 
 

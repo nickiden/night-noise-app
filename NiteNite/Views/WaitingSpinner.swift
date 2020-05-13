@@ -5,6 +5,8 @@
 //  Created by Nick Iden on 2020-05-08.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
+// Comments:
+//      This view is used when assets is downloading from store
 
 import SwiftUI
 
@@ -25,8 +27,7 @@ struct WaitingSpinner: View {
                 
             }.background(Color.black.opacity(0.45).edgesIgnoringSafeArea(.all))
         }
-        }
-        
+     }
     }
 }
 

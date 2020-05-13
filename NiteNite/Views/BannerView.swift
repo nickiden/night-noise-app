@@ -5,6 +5,9 @@
 //  Created by Nick Iden on 2020-03-12.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
+//  Comments:
+//              This view has all the code for the banner featuring google
+//              advertisments.
 
 import SwiftUI
 import GoogleMobileAds

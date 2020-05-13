@@ -5,6 +5,9 @@
 //  Created by Nick Iden on 2020-02-14.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
+//  Comments:
+//              Creates nav view and list of catagories to be selected.
+//              User can scroll to find desired sound effect.
 
 import SwiftUI
 

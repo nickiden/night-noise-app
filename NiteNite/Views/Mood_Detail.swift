@@ -5,6 +5,10 @@
 //  Created by Nick Iden on 2020-02-15.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
+//  Comment:
+//              This is the view with image, description and button to
+//              activate sound.
+//
 
 import SwiftUI
 import AVFoundation

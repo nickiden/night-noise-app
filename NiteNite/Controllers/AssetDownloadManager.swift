@@ -12,6 +12,8 @@ import SwiftUI
 
 class AssetDownloadManager{
     
+    @State var assetDownload = false
+    
      static let shared = AssetDownloadManager()
     
      func loadResourcesWithTag(tagArray: Array <String>){
@@ -24,19 +26,24 @@ class AssetDownloadManager{
         
        resourceRequest.conditionallyBeginAccessingResources {(resourcesAvailable: Bool) -> Void in
            if resourcesAvailable {
-               print("On Demand Resources already available")
-               // Do something with the resources
+            
+                print("On Demand Resources already available")
+                self.assetDownload = true
+            
            } else {
                resourceRequest.beginAccessingResources {error-> Void in
                    guard error == nil else {
                        print("Error: (error)")
                        return
                    }
-                   print("On Demand Resources downloaded, will now display them")
-                   // Do something with the resources
-                   
+                    print("On Demand Resources downloaded, will now display them")
+                    self.assetDownload = true
+            
                }
            }
-           }
+           
+      
        }
+        
+    }
 }

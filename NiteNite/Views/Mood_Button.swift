@@ -52,9 +52,6 @@ struct Mood_Button: View {
         }
     }
     
-    
-    
-    
 }
 
 
@@ -63,9 +60,9 @@ struct Mood_Button: View {
 struct GradientButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
-            .frame(width: 270, height: 60)
+            .frame(width: 300, height: 60)
             .foregroundColor(Color.white)
-            .background(LinearGradient(gradient: Gradient(colors: [Color.orange, Color.yellow]), startPoint: .leading, endPoint: .trailing))
+            .background(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.purple]), startPoint: .leading, endPoint: .trailing))
             .cornerRadius(15.0)
     }
     
@@ -77,3 +74,9 @@ struct GradientButtonStyle: ButtonStyle {
 
 
 
+
+struct Mood_Button_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}

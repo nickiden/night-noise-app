@@ -5,6 +5,9 @@
 //  Created by Nick Iden on 2020-02-14.
 //  Copyright © 2020 Nick Iden. All rights reserved.
 //
+//  Comments:
+//              Populates the row of items. This is all the items per
+//              catagory.
 
 import SwiftUI
 
@@ -26,7 +29,7 @@ struct mood_Row: View {
                 Text(self.categoryName)
                     .font(.title)
                     .fontWeight(.medium)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(.primary)
                     .multilineTextAlignment(.leading)
                     .padding(.top)
                     
@@ -45,7 +48,7 @@ struct mood_Row: View {
 
                             Mood_Items(mood: mood)
                                 .frame(width: 320, height: 320)
-                                .padding(.trailing, 15)
+                                .padding(.trailing, 5)
                                 
                         }
                         

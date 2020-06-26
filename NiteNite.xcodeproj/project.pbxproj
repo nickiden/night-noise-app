@@ -11,7 +11,7 @@
 		EE07EB5023FA3AA6004F33F5 /* Mood_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */; };
 		EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5123FA48F9004F33F5 /* ContentView.swift */; };
 		EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07EB5523FA4CF5004F33F5 /* Settings.swift */; };
-		EE0DA41424045EF8002E78E5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */; };
+		EE12FE872430162C00857DD4 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FE862430162C00857DD4 /* ODRManager.swift */; };
 		EE2DB5EE23F6F0EF000FFF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */; };
 		EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */; };
 		EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB5F123F6F0EF000FFF2A /* Home_View.swift */; };
@@ -20,6 +20,9 @@
 		EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60423F6FC50000FFF2A /* Data.swift */; };
 		EE2DB60F23F70669000FFF2A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DB60E23F70669000FFF2A /* Mood.swift */; };
 		EE3378CE242422B30042B209 /* Waterfall 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE3378CD242422B30042B209 /* Waterfall 1.mp3 */; };
+		EE42C0CA24247D6B009EFE79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE42C0C924247D6B009EFE79 /* Default-568h@2x.png */; };
+		EE4BF7BC2465DBC70058457D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4BF7BB2465DBC70058457D /* ProgressBar.swift */; };
+		EE4BF7BE2465EAEE0058457D /* WaitingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4BF7BD2465EAEE0058457D /* WaitingSpinner.swift */; };
 		EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */; };
 		EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84705F2417DD0600370BE2 /* Terms_View.swift */; };
 		EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE8A60472411DF7A00A1D196 /* White Noise.mp3 */; };
@@ -30,8 +33,10 @@
 		EE8CC84523F7204B00D3D55E /* moods.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8CC84423F7204B00D3D55E /* moods.json */; };
 		EE9FC586241E99F200C09A00 /* Beach1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE9FC585241E99F100C09A00 /* Beach1.mp3 */; };
 		EEB0CA31241E9F630005C076 /* Rain 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB0CA30241E9F630005C076 /* Rain 2.mp3 */; };
+		EEC6257D2464AC9E00E4ACD4 /* AssetDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */; };
 		EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC95C92241EA268000AC7FC /* Rain1.mp3 */; };
 		EED0FAEC241B034200A6838A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0FAEB241B034200A6838A /* BannerView.swift */; };
+		EEE1A9E9246CF42D00B6FC64 /* NiteSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE1A9E8246CF42D00B6FC64 /* NiteSplash.storyboard */; };
 		EEF1F014241EF34A00B827F4 /* Beach 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */; };
 		EEFBE07F23F70A700086DF65 /* Mood_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE07E23F70A700086DF65 /* Mood_Items.swift */; };
 		EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08023F70DDE0086DF65 /* Constaints.swift */; };
@@ -45,7 +50,7 @@
 		EE07EB4F23FA3AA6004F33F5 /* Mood_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Button.swift; sourceTree = "<group>"; };
 		EE07EB5123FA48F9004F33F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE07EB5523FA4CF5004F33F5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EE12FE862430162C00857DD4 /* ODRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODRManager.swift; sourceTree = "<group>"; };
 		EE2DB5EA23F6F0EF000FFF2A /* NiteNite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiteNite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DB5ED23F6F0EF000FFF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE2DB5EF23F6F0EF000FFF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +61,9 @@
 		EE2DB60423F6FC50000FFF2A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EE2DB60E23F70669000FFF2A /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 		EE3378CD242422B30042B209 /* Waterfall 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waterfall 1.mp3"; sourceTree = "<group>"; };
+		EE42C0C924247D6B009EFE79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EE4BF7BB2465DBC70058457D /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		EE4BF7BD2465EAEE0058457D /* WaitingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingSpinner.swift; sourceTree = "<group>"; };
 		EE75FFC823F83F6300E9C471 /* Mood_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Detail.swift; sourceTree = "<group>"; };
 		EE84705F2417DD0600370BE2 /* Terms_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms_View.swift; sourceTree = "<group>"; };
 		EE8A60472411DF7A00A1D196 /* White Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "White Noise.mp3"; sourceTree = "<group>"; };
@@ -66,8 +74,10 @@
 		EE8CC84423F7204B00D3D55E /* moods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = moods.json; path = "../../../../Desktop/Swift App Development Ideas/nitenite/moods.json"; sourceTree = "<group>"; };
 		EE9FC585241E99F100C09A00 /* Beach1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beach1.mp3; sourceTree = "<group>"; };
 		EEB0CA30241E9F630005C076 /* Rain 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rain 2.mp3"; sourceTree = "<group>"; };
+		EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDownloadManager.swift; sourceTree = "<group>"; };
 		EEC95C92241EA268000AC7FC /* Rain1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain1.mp3; sourceTree = "<group>"; };
 		EED0FAEB241B034200A6838A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		EEE1A9E8246CF42D00B6FC64 /* NiteSplash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NiteSplash.storyboard; sourceTree = "<group>"; };
 		EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beach 2.mp3"; sourceTree = "<group>"; };
 		EEFBE07E23F70A700086DF65 /* Mood_Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Items.swift; sourceTree = "<group>"; };
 		EEFBE08023F70DDE0086DF65 /* Constaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constaints.swift; sourceTree = "<group>"; };
@@ -106,6 +116,7 @@
 		EE2DB5E123F6F0EF000FFF2A = {
 			isa = PBXGroup;
 			children = (
+				EE42C0C924247D6B009EFE79 /* Default-568h@2x.png */,
 				EE2DB5EC23F6F0EF000FFF2A /* NiteNite */,
 				EE8CC84623F720D400D3D55E /* Helpers */,
 				EE2DB5EB23F6F0EF000FFF2A /* Products */,
@@ -135,7 +146,6 @@
 				EE8CC84823F720FB00D3D55E /* Data */,
 				EE2DB60B23F7047A000FFF2A /* Views */,
 				EE2DB5FB23F6F0F0000FFF2A /* Info.plist */,
-				EE0DA41324045EF8002E78E5 /* Launch Screen.storyboard */,
 			);
 			path = NiteNite;
 			sourceTree = "<group>";
@@ -160,6 +170,9 @@
 				EE07EB5523FA4CF5004F33F5 /* Settings.swift */,
 				EE84705F2417DD0600370BE2 /* Terms_View.swift */,
 				EED0FAEB241B034200A6838A /* BannerView.swift */,
+				EE4BF7BB2465DBC70058457D /* ProgressBar.swift */,
+				EE4BF7BD2465EAEE0058457D /* WaitingSpinner.swift */,
+				EEE1A9E8246CF42D00B6FC64 /* NiteSplash.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				EE8A60542411E5AE00A1D196 /* AVPlayer.swift */,
+				EE12FE862430162C00857DD4 /* ODRManager.swift */,
+				EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -290,9 +305,10 @@
 				EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */,
 				EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */,
 				EE8CC84523F7204B00D3D55E /* moods.json in Resources */,
+				EEE1A9E9246CF42D00B6FC64 /* NiteSplash.storyboard in Resources */,
+				EE42C0CA24247D6B009EFE79 /* Default-568h@2x.png in Resources */,
 				EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */,
 				EE2DB5F723F6F0F0000FFF2A /* Preview Assets.xcassets in Resources */,
-				EE0DA41424045EF8002E78E5 /* Launch Screen.storyboard in Resources */,
 				EE2DB5F423F6F0F0000FFF2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,9 +366,13 @@
 				EE07EB5223FA48F9004F33F5 /* ContentView.swift in Sources */,
 				EE07EB5623FA4CF5004F33F5 /* Settings.swift in Sources */,
 				EE2DB5F023F6F0EF000FFF2A /* SceneDelegate.swift in Sources */,
+				EE4BF7BC2465DBC70058457D /* ProgressBar.swift in Sources */,
 				EE75FFC923F83F6300E9C471 /* Mood_Detail.swift in Sources */,
+				EE4BF7BE2465EAEE0058457D /* WaitingSpinner.swift in Sources */,
+				EEC6257D2464AC9E00E4ACD4 /* AssetDownloadManager.swift in Sources */,
 				EED0FAEC241B034200A6838A /* BannerView.swift in Sources */,
 				EE2DB5F223F6F0EF000FFF2A /* Home_View.swift in Sources */,
+				EE12FE872430162C00857DD4 /* ODRManager.swift in Sources */,
 				EE8470602417DD0600370BE2 /* Terms_View.swift in Sources */,
 				EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */,
 				EE2DB60523F6FC50000FFF2A /* Data.swift in Sources */,
@@ -487,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
 				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
@@ -495,10 +516,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.04;
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -508,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"NiteNite/Preview Content\"";
 				DEVELOPMENT_TEAM = XSQ47PCY7Y;
 				ENABLE_PREVIEWS = YES;
@@ -516,10 +539,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.04;
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

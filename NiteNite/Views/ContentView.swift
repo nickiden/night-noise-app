@@ -23,8 +23,11 @@ struct ContentView: View {
         var bodyView: some View {
         TabView{
             
+           
             // home view
             Home_View()
+                
+            
             .tabItem {
             
                 Image(systemName: "house")

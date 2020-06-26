@@ -20,9 +20,6 @@
   },
   "properties" : {
     "localizable" : true,
-    "on-demand-resource-tags" : [
-      "image_prefetch"
-    ],
     "preserves-vector-representation" : true
   }
 }

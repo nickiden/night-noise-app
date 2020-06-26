@@ -36,6 +36,7 @@
 		EEC6257D2464AC9E00E4ACD4 /* AssetDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */; };
 		EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC95C92241EA268000AC7FC /* Rain1.mp3 */; };
 		EED0FAEC241B034200A6838A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0FAEB241B034200A6838A /* BannerView.swift */; };
+		EEE1A9E9246CF42D00B6FC64 /* NiteSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE1A9E8246CF42D00B6FC64 /* NiteSplash.storyboard */; };
 		EEF1F014241EF34A00B827F4 /* Beach 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */; };
 		EEFBE07F23F70A700086DF65 /* Mood_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE07E23F70A700086DF65 /* Mood_Items.swift */; };
 		EEFBE08123F70DDE0086DF65 /* Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFBE08023F70DDE0086DF65 /* Constaints.swift */; };
@@ -76,6 +77,7 @@
 		EEC6257C2464AC9E00E4ACD4 /* AssetDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDownloadManager.swift; sourceTree = "<group>"; };
 		EEC95C92241EA268000AC7FC /* Rain1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain1.mp3; sourceTree = "<group>"; };
 		EED0FAEB241B034200A6838A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		EEE1A9E8246CF42D00B6FC64 /* NiteSplash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NiteSplash.storyboard; sourceTree = "<group>"; };
 		EEF1F013241EF34A00B827F4 /* Beach 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beach 2.mp3"; sourceTree = "<group>"; };
 		EEFBE07E23F70A700086DF65 /* Mood_Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_Items.swift; sourceTree = "<group>"; };
 		EEFBE08023F70DDE0086DF65 /* Constaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constaints.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				EED0FAEB241B034200A6838A /* BannerView.swift */,
 				EE4BF7BB2465DBC70058457D /* ProgressBar.swift */,
 				EE4BF7BD2465EAEE0058457D /* WaitingSpinner.swift */,
+				EEE1A9E8246CF42D00B6FC64 /* NiteSplash.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,9 +264,6 @@
 		EE2DB5E223F6F0EF000FFF2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				KnownAssetTags = (
-					image_prefetch,
-				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Nick Iden";
@@ -305,6 +305,7 @@
 				EEC95C93241EA268000AC7FC /* Rain1.mp3 in Resources */,
 				EE8A604D2411DF7B00A1D196 /* White Noise.mp3 in Resources */,
 				EE8CC84523F7204B00D3D55E /* moods.json in Resources */,
+				EEE1A9E9246CF42D00B6FC64 /* NiteSplash.storyboard in Resources */,
 				EE42C0CA24247D6B009EFE79 /* Default-568h@2x.png in Resources */,
 				EE8A604E2411DF7B00A1D196 /* Pink Noise.mp3 in Resources */,
 				EE2DB5F723F6F0F0000FFF2A /* Preview Assets.xcassets in Resources */,
@@ -516,7 +517,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.04;
-				ON_DEMAND_RESOURCES_PREFETCH_ORDER = image_prefetch;
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -540,7 +540,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.04;
-				ON_DEMAND_RESOURCES_PREFETCH_ORDER = image_prefetch;
 				PRODUCT_BUNDLE_IDENTIFIER = NickIden.NiteNite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

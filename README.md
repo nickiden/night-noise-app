@@ -1,7 +1,21 @@
 # night-noise-app
 this is a noise app to help people sleep
 
+Nite Nite overview
 
+Nite Nite is a noise generating app that allows the user to scroll through sound categories, select sound cards, and start and stop audio with a push of a button.
+
+Sound Categories
+
+The following categories are added for demo purposes but can be customized or removed in a .json file.
+
+Beach Sounds
+Fire Sounds
+Waterfall
+Rain
+About this document
+
+This document is to give an overview of the Nite Nite application. Users can download the app to Xcode and get a general overview of the functionality.
 
 
 Main Page
